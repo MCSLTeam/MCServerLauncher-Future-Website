@@ -8,16 +8,14 @@ config:
     background: tint-plate
     tintPlate: 232
     hero:
-      name: MCServerLauncher Future
-      tagline: 新一代服务器管理工具
+      name: MCSL Future
+      tagline: 全新服务器管理工具
       text: MCSL 的全新版本。完全重新设计，功能全面，简单上手。
       # actions:
       #   -
       #     theme: brand
       #     text: 快速开始 →
       #     link: /guide/intro/
-  -
-    type: custom
   -
     type: features
     features:
@@ -27,7 +25,7 @@ config:
         details: 使用 .NET 与 Nuxt.js 完全重写，占用小，运行快。
       -
         title: 多语言支持
-        icon: ⚖
+        icon: 🌏
         details: 官方支持 29 种语言，国际化无压力。
       -
         title: 持久化安全
@@ -97,6 +95,8 @@ config:
       -
         title: 事件管理
         description: 省事省心，安守本分。
+  -
+    type: custom
 ---
 <CardGrid>
   <RepoCard repo="MCSLTeam/MCServerLauncher-Future" />
