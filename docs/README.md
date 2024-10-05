@@ -39,7 +39,7 @@ config:
     type: text-image
     title: WPF 启动器
     description: 功能丰富，满足各种需求。
-    image: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
+    image: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
     list:
       -
         title: 支持各种实例类型
@@ -54,7 +54,7 @@ config:
     type: image-text
     title: WPF 控制台
     description: 一目了然，看管实时到位。
-    image: https://images.mcsl.com.cn/new/MCServerLauncherConsole.png
+    image: https://images.mcsl.com.cn/new/MCServerLauncherConsole.webp
     list:
       -
         title: 实例看板
@@ -84,7 +84,7 @@ config:
     type: image-text
     title: .NET 6.0 守护进程
     description: 加密护航，安全保障。
-    image: https://images.mcsl.com.cn/new/MCServerLauncherDaemon.png
+    image: https://images.mcsl.com.cn/new/MCServerLauncherDaemon.webp
     list:
       -
         title: RPC 通讯

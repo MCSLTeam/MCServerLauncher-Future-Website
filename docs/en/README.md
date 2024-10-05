@@ -39,7 +39,7 @@ config:
     type: text-image
     title: WPF Launcher
     description: Versatility to meet various needs.
-    image: https://images.mcsl.com.cn/new/MCServerLauncherFuture.png
+    image: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
     list:
       -
         title: Support for Various Instance Types
@@ -54,7 +54,7 @@ config:
     type: image-text
     title: WPF Console
     description: Clear and real-time monitoring.
-    image: https://images.mcsl.com.cn/new/MCServerLauncherConsole.png
+    image: https://images.mcsl.com.cn/new/MCServerLauncherConsole.webp
     list:
       -
         title: Instance Dashboard
@@ -84,7 +84,7 @@ config:
     type: image-text
     title: .NET 6.0 Daemon
     description: Encryption protection for enhanced security.
-    image: https://images.mcsl.com.cn/new/MCServerLauncherDaemon.png
+    image: https://images.mcsl.com.cn/new/MCServerLauncherDaemon.webp
     list:
       -
         title: RPC Communication

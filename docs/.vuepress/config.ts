@@ -4,7 +4,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://images.mcsl.com.cn/new/MCServerLauncherFuture.png' }]
+    ['link', { rel: 'icon', type: 'image/png', href: 'https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp' }]
   ],
   lang: 'zh-CN',
   title: "MCSL Future",
@@ -15,7 +15,7 @@ export default defineUserConfig({
     '/en/': { lang: 'en-US' },
   },
   theme: plumeTheme({
-    logo: 'https://images.mcsl.com.cn/new/MCServerLauncherFuture.png',
+    logo: 'https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp',
     hostname: "https://future.mcsl.com.cn",
     autoFrontmatter: false,
     locales: {
