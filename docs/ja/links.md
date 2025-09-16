@@ -1,30 +1,30 @@
 ---
 pageLayout: friends
-title: 友情链接
+title: 外部リンク
 list:
   -
-    name: MSL 开服器
+    name: MSL
     link: https://www.mslmc.cn/
     avatar: https://www.mslmc.cn/logo.png
-    desc: 新一代服务器管理/联机工具
+    desc: 次世代サーバー管理/オンラインツール
   -
-    name: 中国内网穿透联盟
+    name: China Frp Union
     link: https://内网穿透.中国/
     avatar: https://img.fastmirror.net/s/2025/07/22/687f8d53e18f5.png
-    desc: 我们是中国内网穿透联盟，行业同僚在此聚集。
+    desc: 我々は中国Frp連合です。業界の同僚が集まる場所です。
   -
     name: iNKORE Studios
     link: https://inkore.net
     avatar: https://img.fastmirror.net/s/2025/09/17/68c989c36c29d.png
-    desc: 执玄矿为墨，书幻梦成章。
+    desc: 執玄鉱を墨と為し、幻夢を書して章と成す。
   -
-    name: 裕米云
+    name: COMCORN Cloud
     link: https://comcorn.cn/
     avatar: https://img.fastmirror.net/s/2025/07/22/687f8c75dbb2a.png
-    desc: 提供云计算解决方案
+    desc: クラウドコンピューティングソリューションを提供
   -
-    name: MC导航网
+    name: MCNav
     link: https://www.mcnav.net/
     avatar: https://www.mcnav.net/wp-content/uploads/2021/08/1627802438-logo.gif
-    desc: 一个专注于 Minecraft 的中文导航网站
+    desc: Minecraft（マインクラフト）に特化した中国語ナビゲーションサイト
 ---

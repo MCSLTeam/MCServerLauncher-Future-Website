@@ -13,6 +13,9 @@ export default defineUserConfig({
     // 配置 不同 path 下的语言
     '/': { lang: 'zh-CN' },
     '/en/': { lang: 'en-US' },
+    '/ja/': { lang: 'ja-JP' },
+    '/zh-hant/': { lang: 'zh-TW' },
+    '/ru/': { lang: 'ru-RU' },
   },
   theme: plumeTheme({
     logo: 'https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp',
@@ -21,7 +24,7 @@ export default defineUserConfig({
     locales: {
       '/': {
         selectLanguageName: '简体中文',
-        footer: { message: "<a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a></br>本站由 阿里云 提供 CDN 加速与防御支持。", "copyright": "© 2022-2024 <a href='https://mcsl.com.cn'>MCSL开发组</a> 保留所有权利。" },
+        footer: { message: "<div style='text-align: center;'><img src='https://img.fastmirror.net/s/2025/09/17/68c99c017ef02.png' style='height: 30px; margin: 0 auto; margin-bottom: 20px; display: block;'></img></div><a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a>", "copyright": "© 2022-2025 <a href='https://mcsl.com.cn'>MCSL开发组</a> 保留所有权利。" },
         navbar: [
           {
             text: '主页',
@@ -47,7 +50,7 @@ export default defineUserConfig({
       },
       '/en/': {
         selectLanguageName: 'English',
-        footer: { message: "<a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a></br>This site is supported by 木韩网络 for CDN acceleration and defense.", "copyright": "© 2022-2024 <a href='https://mcsl.com.cn'>MCSLTeam</a>. All rights reserved." },
+        footer: { message: "<div style='text-align: center;'><img src='https://img.fastmirror.net/s/2025/09/17/68c99c017ef02.png' style='height: 30px; margin: 0 auto; margin-bottom: 20px; display: block;'></img></div><a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a>", "copyright": "© 2022-2025 <a href='https://mcsl.com.cn'>MCSLTeam</a>. All rights reserved. " },
         navbar: [
           {
             text: 'Home',
@@ -67,6 +70,84 @@ export default defineUserConfig({
           {
             text: 'Links',
             link: '/en/links',
+            icon: 'eva:link-fill',
+          },
+        ],
+      },
+      '/ja/': {
+        selectLanguageName: '日本語',
+        footer: { message: "<div style='text-align: center;'><img src='https://img.fastmirror.net/s/2025/09/17/68c99c017ef02.png' style='height: 30px; margin: 0 auto; margin-bottom: 20px; display: block;'></img></div><a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a>", "copyright": "© 2022-2025 <a href='https://mcsl.com.cn'>MCSLTeam</a>. 全著作権所有。" },
+        navbar: [
+          {
+            text: 'ホーム',
+            link: '/ja/',
+            icon: 'heroicons:home',
+          },
+          {
+            text: '利用規約',
+            link: '/ja/eula',
+            icon: 'f7:doc-text-fill',
+          },
+          {
+            text: 'ダウンロード',
+            link: '/ja/download',
+            icon: 'material-symbols:download',
+          },
+          {
+            text: 'リンク',
+            link: '/ja/links',
+            icon: 'eva:link-fill',
+          },
+        ],
+      },
+      '/zh-hant/': {
+        selectLanguageName: '繁體中文',
+        footer: { message: "<div style='text-align: center;'><img src='https://img.fastmirror.net/s/2025/09/17/68c99c017ef02.png' style='height: 30px; margin: 0 auto; margin-bottom: 20px; display: block;'></img></div><a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a>", "copyright": "© 2022-2025 <a href='https://mcsl.com.cn'>MCSL開發組</a> 保留所有權利。" },
+        navbar: [
+          {
+            text: '主頁',
+            link: '/zh-hant/',
+            icon: 'heroicons:home',
+          },
+          {
+            text: '使用者協議',
+            link: '/zh-hant/eula',
+            icon: 'f7:doc-text-fill',
+          },
+          {
+            text: '下載',
+            link: '/zh-hant/download',
+            icon: 'material-symbols:download',
+          },
+          {
+            text: '友情連結',
+            link: '/zh-hant/links',
+            icon: 'eva:link-fill',
+          },
+        ],
+      },
+      '/ru/': {
+        selectLanguageName: 'Русский',
+        footer: { message: "<div style='text-align: center;'><img src='https://img.fastmirror.net/s/2025/09/17/68c99c017ef02.png' style='height: 30px; margin: 0 auto; margin-bottom: 20px; display: block;'></img></div><a target='_blank' href='https://beian.miit.gov.cn/'>鲁ICP备2023001164号-2</a>", "copyright": "© 2022-2025 <a href='https://mcsl.com.cn'>MCSLTeam</a>. Все права защищены." },
+        navbar: [
+          {
+            text: 'Главная',
+            link: '/ru/',
+            icon: 'heroicons:home',
+          },
+          {
+            text: 'Лицензия',
+            link: '/ru/eula',
+            icon: 'f7:doc-text-fill',
+          },
+          {
+            text: 'Скачать',
+            link: '/ru/download',
+            icon: 'material-symbols:download',
+          },
+          {
+            text: 'Ссылки',
+            link: '/ru/links',
             icon: 'eva:link-fill',
           },
         ],

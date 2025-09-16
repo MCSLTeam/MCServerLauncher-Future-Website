@@ -26,18 +26,18 @@ config:
       -
         title: 多语言支持
         icon: 🌏
-        details: 官方支持 29 种语言，国际化无压力。
+        details: 支持简中/繁中/英语/日语/俄语。
       -
-        title: 持久化安全
+        title: 深耕底层协议
         icon: 🔒
-        details: 独特通讯协议，数据加密护航。
+        details: 情报了如指掌，实例不离手中。
       -
         title: 简易化部署
         icon: 📝
         details: 步骤明了，轻松开服。
   -
     type: text-image
-    title: WPF 启动器
+    title: WPF 启动器 
     description: 功能丰富，满足各种需求。
     image: https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp
     list:
@@ -95,9 +95,8 @@ config:
       -
         title: 事件管理
         description: 省事省心，安守本分。
-  -
-    type: custom
 ---
+
 <CardGrid>
   <RepoCard repo="MCSLTeam/MCServerLauncher-Future" />
   <RepoCard repo="MCSLTeam/MCServerLauncher-Future-Web" />

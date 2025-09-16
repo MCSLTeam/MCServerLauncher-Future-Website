@@ -26,11 +26,11 @@ config:
       -
         title: Multi-language Support
         icon: 🌏
-        details: Officially supports 29 languages, making internationalization effortless.
+        details: Supports Simplified Chinese, Traditional Chinese, English, Japanese, and Russian.
       -
-        title: Persistent Security
+        title: Deep Protocol Integration
         icon: 🔒
-        details: Unique communication protocol and data encryption for enhanced security.
+        details: Complete control and monitoring, keeping instances at your fingertips.
       -
         title: Simplified Deployment
         icon: 📝
