@@ -2,6 +2,7 @@ import { type UserConfig, defineUserConfig } from 'vuepress'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { plumeTheme } from 'vuepress-theme-plume'
 
+// why dev & prod shows different? Fuck U.
 export default defineUserConfig({
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: 'https://images.mcsl.com.cn/new/MCServerLauncherFuture.webp' }]
